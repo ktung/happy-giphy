@@ -1,0 +1,5 @@
+msteamsHook: https://outlook.office.com/webhook/
+
+giphy:
+  url: https://api.giphy.com/v1/gifs/
+  apiKey: apiKey
