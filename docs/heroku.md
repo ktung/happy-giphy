@@ -10,6 +10,11 @@ heroku config:set giphy.apiKey=
 heroku apps:rename happy-giphy
 ```
 
+To link existing folder
+```shell
+heroku git:remote -a happy-giphy
+```
+
 ## Scheduler
 [Heroku Scheduler](https://devcenter.heroku.com/articles/scheduler)
 ```shell
